@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="lv">
 <head>
     <meta charset="UTF-8">
     <meta name="vievport" content="width-device-width, initial-scale=1.0">
@@ -7,12 +7,13 @@
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
 <div class="container">
     <header class="header">
         <div class="header_content">
             <div class="header_logo">
-                <a href="/">
+                <a href="#">
                     <img src="./assets/img/black-logo3.svg" alt="logo">
                 </a>
             </div>
@@ -27,11 +28,7 @@
                 </ul>
             </div>
             <div class="select_language">
-                <select name="select_language" id="">
-                    <option value="LV">LV</option>
-                    <option value="EN">EN</option>
-                    <option value="RU">RU</option>
-                </select>
+                <p><a href="#">LV</a></p>
             </div>
         </div>
         <div class="vector">
@@ -76,13 +73,103 @@
         <div class="offer_text">
             VĒLIES PALĪDZĒT KĀDĀM PIEPILDĪT SAPNI?
         </div>
-        <div class="offer_button">
+    </div>
+    <div class="offer_button">
+        <div class="offer_btn_item">Sapņotājiem</div>
+        <div class="offer_btn_item">Uzņēmējiem</div>
+    </div>
+</div>
 
+<div class="container">
+    <div class="contact">
+        <div class="contact_text">
+            <h2>SAZINĀTIES AR MUMS</h2>
+        </div>
+        <form class="form" action="#" method="post">
+
+            <label for="name"></label>
+            <input class="form_item_name" type="text" id="name" name="user_name" placeholder="Vārds, Uzvārds*">
+
+            <label for="mail"></label>
+            <input class="form_item_mail" type="email" id="mail" name="user_mail" placeholder="E-pasts*">
+
+            <label for="phone"></label>
+            <input class="form_item form_item_phone" type="tel" id="phone" name="user_phone" placeholder="Telefons*">
+
+            <label for="msg"></label>
+            <textarea class="form_item_text" id="msg" name="user_message"
+                      placeholder="Jautājums, vai komentārs*"></textarea>
+
+        </form>
+        <div class="">
+            <p>*obligāti aizpildāmie lauki</p>
+        </div>
+        <div class="checkbox">
+            <input type="checkbox">
+        </div>
+        <p class="data_saving_descr">Piekrītu, ka mani dati tiks izmantoti likumdošanā noteiktā kārtībā un tiks
+            saglabāti līdz brīdim, kamēr tas
+            būs nepieciešams.</p>
+        <div class="btn">
+            <button class="btn_send">
+                Sūtīt
+            </button>
+        </div>
+    </div>
+</div>
+
+<div class="container_support">
+    <div class="support">
+        <div class="support_descr">
+            <h2>ATBALSTĪTĀJI</h2>
+        </div>
+        <div class="support_logos">
+            <div class="logo_item"><img src="./assets/img/getlogo%201.png" alt="logo"></div>
+            <div class="logo_item"><img src="./assets/img/sem_logo-2%201.png" alt="logo"></div>
+            <div class="logo_item"><img src="./assets/img/Citybee-logo%201.png" alt="logo"></div>
+            <div class="logo_item"><img src="./assets/img/logo1%201.png" alt="logo"></div>
         </div>
     </div>
 </div>
 
 
+<footer>
+    <div class="footer_logo">
+        <img src="./assets/img/footer_logo.png" alt=logo">
+    </div>
+
+    <div class="footer_list">
+        <p><a href="#">Ideja</a></p>
+        <p><a href="#">Piesaki Sapni</a></p>
+        <p><a href="#">Uzņēmējiem</a></p>
+        <p><a href="#">Sapņu banka</a></p>
+        <p><a href="#">Sapņus atbalsta</a></p>
+        <p><a href="#">Iedvesmas stāsti</a></p>
+    </div>
+
+    <div class="footer_bank_rekv">
+        <p class="rekv1">Biedrība SparkleHeart</p>
+        <p class="rekv2">Reģistrācijas nr. 40008293119</p>
+        <p class="rekv3">Banka: SWEDBANK A/S</p>
+        <p class="rekv4">LV52HABA0551047652465</p>
+    </div>
+
+    <div class="footer_contact">
+        <p>Juris Gogulis</p>
+        <p>juris.gogulis@sparkleheart.org</p>
+        <p>+37126890034</p>
+        <p>Biķernieku iela 24a - 5, LV-1006</p>
+
+        <div class="sosial">
+            <a href="https://www.facebook.com/"><img src="./assets/img/facebook-new-2019-seeklogo.com-3.svg" alt="facebook"></a>
+            <a href="https://www.instagram.com/"><img src="./assets/img/instagram-seeklogo.com.svg" alt="instagram"></a>
+        </div>
+    </div>
+
+</footer>
+
+
 <script src="./assets/js/theme.js"></script>
+
 </body>
 </html>

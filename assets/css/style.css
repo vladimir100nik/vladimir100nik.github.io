@@ -58,7 +58,7 @@ html {
 }
 
 .header_content {
-    height: 92.51px;
+    height: 92px;
     background-color: white;
 }
 
@@ -68,14 +68,17 @@ html {
 }
 
 .nav {
-    margin-left: 305px;
+    /*margin-left: 305px;*/
     background-color: white;
+    /*margin: 51px 0 0 35px;*/
+    padding-top: 51px;
+    float: left;
 }
 
 .nav .navItem {
-    float: left;
+    display: inline;
     margin: 51px 0 0 35px;
-    font-family: Montserrat;
+    font-family: Montserrat, serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -92,6 +95,16 @@ html {
     float: left;
     margin: 51px 32px 12px 51px;
     border: none;
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+
+}
+.select_language a {
+    text-decoration: none;
 }
 
 .vector {
@@ -102,7 +115,7 @@ html {
     /*right: 0%;*/
     /*top: 2.33%;*/
     /*bottom: 96.71%;*/
-    margin: 319px 620px 320px 620px;
+    margin: 270px 620px 340px 620px;
     background-color: white;
     border-radius: 100%;
 }
@@ -111,7 +124,7 @@ html {
     margin: 150px 353px 150px 359px;
     width: 654px;
     height: 114px;
-    font-family: Montserrat;
+    font-family: Montserrat, serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -145,15 +158,341 @@ html {
 }
 
 .offer_text {
-    font-family: Oswald;
+    width: 394px;
+    height: 29px;
+    margin: 0 auto;
+    margin-top: 165px;
+    font-family: Oswald, serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 36px;
     text-align: center;
 
     color: #2F4858;
 }
+
+
+.offer_button {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.offer_btn_item {
+    display: block;
+    margin: 0 auto;
+    padding-top: 17px;
+    width: 233px;
+    height: 50px;
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    background-color: #ffa800;
+    border-radius: 100px;
+
+}
+
+.contact_text {
+    width: 819px;
+    height: 48px;
+    margin: 0 auto;
+    margin-top: 150px;
+    font-family: Oswald, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 44px;
+    text-align: center;
+    color: #2F4858;
+}
+
+.form {
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.015em;
+
+}
+
+.form input {
+    width: 296px;
+    height: 43px;
+    background: rgba(196, 196, 196, 0.4);
+    border-radius: 6px;
+    border: none;
+}
+
+
+.form_item {
+    display: block;
+    margin: 0 auto;
+
+}
+
+.form .form_item_name {
+    width: 296px;
+    height: 43px;
+    margin: 55px 20px 15px 0;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.015em;
+}
+
+.form .form_item_mail {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.015em;
+
+}
+
+.form .form_item_phone {
+    width: 612px;
+    height: 43px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.015em;
+}
+
+.form .form_item_text {
+    margin-top: 15px;
+    width: 612px;
+    height: 232px;
+    background: rgba(196, 196, 196, 0.4);
+    border-radius: 6px;
+    resize: none;
+    border: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.015em;
+}
+
+.contact p {
+    margin: 15px 0 0 377px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.checkbox {
+    margin: 28px 0 0 380px;
+    width: 16px;
+    height: 16px;
+    background: #E7E7E7;
+    border-radius: 3px;
+    float: left;
+}
+
+.data_saving_descr {
+    padding: 8px 0 0 25px;
+    width: 572px;
+    height: 39px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #2F4858;
+}
+
+.btn {
+    text-align: center;
+}
+
+.btn_send {
+    appearance: none;
+    margin-top: 50px;
+    width: 182px;
+    height: 62px;
+    background-color: #ffa800;
+    color: white;
+    border-radius: 100px;
+    ont-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    border: none;
+}
+
+.support {
+    width: 100%;
+    height: 533px;
+    margin-top: 150px;
+    background: #FFCB66;
+    padding-top: 100px;
+}
+
+.support .support_descr {
+    width: 394px;
+    height: 29px;
+    font-family: Oswald, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #2F4858;
+    margin: 0 auto;
+}
+
+.support_logos {
+    margin-top: 108px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background: #2F4858;
+    padding-bottom: 20px;
+}
+
+
+
+.footer_logo {
+    width: 182px;
+    height: 182px;
+
+}
+
+.footer_logo img {
+    margin: 25px 0 0 62px;
+
+}
+
+footer .footer_logo p {
+    margin: 70px 0 13px 62px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #FFFFFF;
+}
+
+footer .footer_list {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+footer .footer_list a {
+    text-decoration: none;
+    color: white;
+}
+
+footer .footer_list p {
+    margin-top: 21px;
+}
+
+footer .footer_bank_rekv {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+footer .footer_bank_rekv p {
+    margin-top: 22px;
+}
+
+footer .rekv1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    color: #FFFFFF;
+    margin-top: 22px;
+
+}
+
+footer .rekv2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 22px;
+}
+
+footer .rekv3 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 10px;
+
+}
+
+footer .rekv4 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+footer .footer_contact {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+footer .footer_contact:nth-child(2) {
+    font-size: 18px;
+}
+
+footer .footer_contact p {
+    margin-top: 12px;
+    margin-right: 10px;
+}
+
+.sosial {
+    margin: 52px 62px 51px 0;
+
+}
+
+.sosial img {
+    width: 36px;
+    height: 36px;
+    margin-right: 29px;
+    /*background-color: white;*/
+}
+
+
+
+
 
 
 
